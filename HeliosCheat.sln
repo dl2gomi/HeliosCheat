@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeliosCheat", "HeliosCheat\HeliosCheat.csproj", "{E16DF020-410D-45D8-A72E-0FCAAA798C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryManager", "MemoryManager\MemoryManager.csproj", "{8A1463A1-29F8-4F61-9504-876A007FBF63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS2Cheat", "CS2Cheat\CS2Cheat.csproj", "{7491C47A-50F6-45F9-9A24-DB85B29698DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesInfo", "GamesInfo\GamesInfo.csproj", "{7D36E551-7727-4C7A-9EE3-E5FCE9A35742}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E16DF020-410D-45D8-A72E-0FCAAA798C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16DF020-410D-45D8-A72E-0FCAAA798C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16DF020-410D-45D8-A72E-0FCAAA798C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16DF020-410D-45D8-A72E-0FCAAA798C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1463A1-29F8-4F61-9504-876A007FBF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1463A1-29F8-4F61-9504-876A007FBF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1463A1-29F8-4F61-9504-876A007FBF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1463A1-29F8-4F61-9504-876A007FBF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7491C47A-50F6-45F9-9A24-DB85B29698DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7491C47A-50F6-45F9-9A24-DB85B29698DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7491C47A-50F6-45F9-9A24-DB85B29698DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7491C47A-50F6-45F9-9A24-DB85B29698DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D36E551-7727-4C7A-9EE3-E5FCE9A35742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D36E551-7727-4C7A-9EE3-E5FCE9A35742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D36E551-7727-4C7A-9EE3-E5FCE9A35742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D36E551-7727-4C7A-9EE3-E5FCE9A35742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57A6F2A9-7E89-4FA7-84B9-40F0488B6479}
+	EndGlobalSection
+EndGlobal

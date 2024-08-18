@@ -1,0 +1,34 @@
+﻿<Page x:Class="HeliosCheat.Games.CS2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HeliosCheat.Games"
+      xmlns:viewModels="clr-namespace:HeliosCheat.ViewModels"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CS2">
+    <Page.DataContext>
+        <viewModels:CS2ViewModel/>
+    </Page.DataContext>
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="71*"/>
+        </Grid.RowDefinitions>
+        <Label Content="{Binding SelectProcessTitle}" Grid.Row="0" Margin="10,20,10,0" VerticalAlignment="Top"/>
+        <ComboBox SelectedIndex="{Binding CS2ProcessIndex}" Margin="10,0,10,0" Height="25" VerticalAlignment="Top" x:Name="comboGameList" ItemsSource="{Binding Processes.ProcessList}" AutomationProperties.HelpText="Select a process" Grid.Row="1">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="20" Width="20" Source="{Binding IconImage}" VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center" Padding="10,0"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Content="Connect to Process" Height="25" Margin="10,30,10,0" Grid.Row="1" VerticalAlignment="Top" Command="{Binding ConnectCommand}"/>
+    </Grid>
+</Page>
